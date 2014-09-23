@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - My App ASP.NET MVC</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />        
+        @Scripts.Render("~/bundles/modernizr")
+    </head>
+    <body>
+        <header>
+           
+        </header>
+        <div>            
+            @RenderBody()            
+        </div>
+        <footer>
+            
+        </footer>
+
+        @Scripts.Render("~/bundles/jquery")
+        @RenderSection("scripts", required: false)
+    </body>
+</html>
